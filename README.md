@@ -2,6 +2,8 @@
 
 Copilot SDK console app that races multiple models on the same prompt.
 
+![Model Race terminal result](docs/terminal-results.svg)
+
 ## Setup
 
 ```powershell

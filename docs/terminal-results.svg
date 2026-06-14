@@ -1,0 +1,51 @@
+<svg width="1060" height="650" viewBox="0 0 1060 650" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1060" height="650" rx="18" fill="#0d1117"/>
+  <rect x="0" y="0" width="1060" height="44" rx="18" fill="#161b22"/>
+  <circle cx="24" cy="22" r="7" fill="#ff5f56"/>
+  <circle cx="46" cy="22" r="7" fill="#ffbd2e"/>
+  <circle cx="68" cy="22" r="7" fill="#27c93f"/>
+  <text x="90" y="27" fill="#8b949e" font-family="Consolas, Monaco, monospace" font-size="15">PowerShell - npm run race</text>
+
+  <g font-family="Consolas, Monaco, monospace" font-size="17" fill="#c9d1d9">
+    <text x="28" y="78" fill="#58a6ff">&gt; npm run race -- --models mai --prompt "Respond with exactly OK." --no-judge --no-stream</text>
+    <text x="28" y="112" fill="#8b949e">Starting Copilot SDK and resolving models...</text>
+
+    <text x="28" y="154" fill="#f778ba">╭────────────────────────────────────────────────────────────────────────╮</text>
+    <text x="28" y="178" fill="#f778ba">│</text>
+    <text x="58" y="178" fill="#f0f6fc" font-weight="700">⚡ Copilot SDK Model Race</text>
+    <text x="840" y="178" fill="#f778ba">│</text>
+    <text x="28" y="202" fill="#f778ba">├────────────────────────────────────────────────────────────────────────┤</text>
+    <text x="28" y="226" fill="#f778ba">│</text>
+    <text x="58" y="226" fill="#8b949e">Task</text>
+    <text x="840" y="226" fill="#f778ba">│</text>
+    <text x="28" y="250" fill="#f778ba">│</text>
+    <text x="78" y="250">Respond with exactly OK.</text>
+    <text x="840" y="250" fill="#f778ba">│</text>
+    <text x="28" y="286" fill="#f778ba">│</text>
+    <text x="58" y="286" fill="#8b949e">Models (1)</text>
+    <text x="840" y="286" fill="#f778ba">│</text>
+    <text x="28" y="310" fill="#f778ba">│</text>
+    <text x="78" y="310" fill="#3fb950">●</text>
+    <text x="104" y="310">MAI-Code-1-Flash</text>
+    <text x="285" y="310" fill="#8b949e">fast  $0.75/$4.5 per 1M</text>
+    <text x="840" y="310" fill="#f778ba">│</text>
+    <text x="28" y="346" fill="#f778ba">│</text>
+    <text x="58" y="346" fill="#8b949e">Review</text>
+    <text x="138" y="346">disabled (--no-judge)</text>
+    <text x="840" y="346" fill="#f778ba">│</text>
+    <text x="28" y="370" fill="#f778ba">╰────────────────────────────────────────────────────────────────────────╯</text>
+
+    <text x="28" y="414" fill="#8b949e">Racing MAI-Code-1-Flash ...</text>
+    <text x="28" y="456" fill="#f0f6fc" font-weight="700">══ Leaderboard (sorted by token spend) ══</text>
+    <text x="28" y="492" fill="#8b949e">Model              Tier   Time   Gen(API)  In tok  Out tok  Total tok  Tok/s  AI cred  Status</text>
+    <text x="28" y="518" fill="#8b949e">────────────────  ────  ─────  ────────  ──────  ───────  ─────────  ─────  ───────  ──────</text>
+    <text x="28" y="546">MAI-Code-1-Flash  fast  1.79s     1.28s  11,016       10     11,026      8     0.83    done</text>
+
+    <text x="28" y="590" fill="#f0f6fc" font-weight="700">══ Token spend &amp; cost ══</text>
+    <text x="28" y="620" fill="#8b949e">Total tokens: </text>
+    <text x="166" y="620" fill="#f0f6fc" font-weight="700">11,026</text>
+    <text x="238" y="620" fill="#8b949e">  AI credits: </text>
+    <text x="378" y="620" fill="#f0f6fc" font-weight="700">0.83</text>
+    <text x="430" y="620" fill="#8b949e"> (≈ $0.01 · 1 credit = $0.01)</text>
+  </g>
+</svg>
