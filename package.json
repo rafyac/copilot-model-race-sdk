@@ -1,0 +1,26 @@
+{
+  "name": "copilot-model-race-sdk",
+  "version": "1.0.0",
+  "description": "Copilot SDK console app that races multiple models on the same prompt.",
+  "main": "model-race.ts",
+  "scripts": {
+    "race": "tsx model-race.ts",
+    "test": "node --import tsx --test *.test.ts"
+  },
+  "keywords": [
+    "copilot",
+    "sdk",
+    "models",
+    "benchmark"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@github/copilot-sdk": "^1.0.0",
+    "@inquirer/prompts": "^8.5.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.22.4"
+  }
+}
